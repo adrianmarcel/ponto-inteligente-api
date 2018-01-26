@@ -194,6 +194,7 @@ public class Funcionario implements Serializable {
 		dataAtualizacao = atual;
 	}
 	
+	@Override
 	public String toString() {
 		return "Funcionario [id = " + id + ", nome = " + nome + ", email = " + email 
 				+ ", senha = " + senha + ", cpf = " + cpf + ", valorHora = " + valorHora
